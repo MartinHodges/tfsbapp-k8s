@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tfsbapp
-          image: martinhodges/tfsbapp:latest
+          image: martinhodges/tfsbapp:27
           ports:
             - containerPort: 9091
           imagePullPolicy: IfNotPresent
